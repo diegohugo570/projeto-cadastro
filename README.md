@@ -107,8 +107,6 @@ projeto-cadastro/
 ├── docker-compose.yml
 ├── .gitignore
 └── README.md
-
-yaml
 ```
 ---
 
