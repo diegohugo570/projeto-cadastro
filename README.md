@@ -1,40 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+Este é um projeto Next.js
+ criado com create-next-app
+.
 
-## Getting Started
+Primeiros Passos
 
-First, run the development server:
+Primeiro, execute o servidor de desenvolvimento:
 
-```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Abra http://localhost:3000
+ no seu navegador para ver o resultado.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Você pode começar a editar a página modificando o arquivo pages/index.tsx. A página é atualizada automaticamente conforme você edita o arquivo.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+As rotas de API
+ podem ser acessadas em http://localhost:3000/api/hello
+. Esse endpoint pode ser editado em pages/api/hello.ts.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+O diretório pages/api é mapeado para /api/*. Os arquivos dentro desse diretório são tratados como rotas de API
+ em vez de páginas React.
 
-## Learn More
+Este projeto utiliza next/font
+ para otimizar e carregar automaticamente a fonte Geist
+, uma nova família de fontes da Vercel.
 
-To learn more about Next.js, take a look at the following resources:
+Saiba Mais
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+Para aprender mais sobre o Next.js, confira os recursos abaixo:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Documentação do Next.js
+ – aprenda sobre os recursos e a API do Next.js.
 
-## Deploy on Vercel
+Aprenda Next.js
+ – um tutorial interativo de Next.js.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Você também pode conferir o repositório do Next.js no GitHub
+ — seu feedback e contribuições são bem-vindos!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Deploy na Vercel
+
+A forma mais fácil de fazer o deploy da sua aplicação Next.js é usando a plataforma Vercel
+, criada pelos mesmos desenvolvedores do Next.js.
+
+Confira a nossa documentação de deploy do Next.js
+ para mais detalhes.
