@@ -109,7 +109,6 @@ projeto-cadastro/
 └── README.md
 
 yaml
-Copiar código
 
 ---
 
