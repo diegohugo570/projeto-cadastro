@@ -1,37 +1,166 @@
-Este é um projeto [Next.js](https://nextjs.org) criado com [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 📝 Projeto Cadastro de Usuários
 
-## Primeiros Passos
+O **Projeto Cadastro de Usuários** é uma aplicação **Full Stack** desenvolvida com foco em **boas práticas de arquitetura, organização de código e separação de responsabilidades** entre **Frontend, Backend, Banco de Dados e Infraestrutura**.
 
-Primeiro, execute o servidor de desenvolvimento:
+O projeto foi estruturado para ser **escalável, modular e preparado para produção**, sendo ideal para **estudos avançados**, **demonstração técnica** e **portfólio profissional**.
 
+---
+
+## 🚀 Funcionalidades
+
+- 👤 Cadastro de usuários
+- 📄 Listagem de usuários
+- ✏️ Atualização de dados
+- 🗑️ Remoção de registros
+- 🌐 Comunicação via API REST
+- 🧩 Estrutura modular
+- 📦 Build otimizado
+- 🐳 Ambiente containerizado com Docker
+- ⚡ Pronto para deploy
+
+---
+
+## 🧰 Stacks e Tecnologias Utilizadas
+
+### 🎨 Frontend
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
+
+- Interface responsiva
+- Estilização utilitária com Tailwind CSS
+- Componentes visuais com Bootstrap
+- Manipulação de DOM e eventos com jQuery
+- Consumo de API REST
+
+---
+
+### 📦 Build & Bundler
+![Webpack](https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black)
+
+- Empacotamento de arquivos
+- Otimização de assets
+- Build para produção
+
+---
+
+### 🌐 Backend
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge)
+
+- API RESTful
+- Arquitetura em camadas
+- Tipagem estática com TypeScript
+- Organização de rotas e controllers
+
+---
+
+### 🗄️ Banco de Dados
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+- Banco de dados relacional
+- Persistência de dados
+- Estrutura preparada para evolução
+
+---
+
+### ⚙️ Infraestrutura & DevOps
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Docker Compose](https://img.shields.io/badge/Docker%20Compose-0db7ed?style=for-the-badge)
+
+- Containerização da aplicação
+- Orquestração de múltiplos serviços
+- Padronização de ambiente
+- Separação entre ambientes (dev / prod)
+- Base preparada para CI/CD
+
+---
+
+## 📂 Estrutura do Projeto
+
+projeto-cadastro/
+│
+├── backend/
+│ ├── src/
+│ │ ├── controllers/
+│ │ ├── routes/
+│ │ ├── services/
+│ │ └── app.ts
+│ ├── Dockerfile
+│ └── package.json
+│
+├── frontend/
+│ ├── src/
+│ │ ├── js/
+│ │ ├── styles/
+│ │ └── templates/
+│ ├── build/
+│ │ ├── bundle.js
+│ │ └── index.html
+│ ├── webpack.config.js
+│ └── package.json
+│
+├── docker-compose.yml
+├── .gitignore
+└── README.md
+
+yaml
+Copiar código
+
+---
+
+## ▶️ Como Executar o Projeto
+
+### 🐳 Executar com Docker
 ```bash
+docker-compose up --build
+💻 Executar Manualmente
+Backend
+bash
+Copiar código
+cd backend
+npm install
 npm run dev
-# ou
-yarn dev
-# ou
-pnpm dev
-# ou
-bun dev
-Abra http://localhost:3000 no seu navegador para ver o resultado.
+Frontend
+bash
+Copiar código
+cd frontend
+npm install
+npm run build
+Abra no navegador:
 
-Você pode começar a editar a página modificando o arquivo pages/index.tsx. A página é atualizada automaticamente conforme você edita o arquivo.
+bash
+Copiar código
+frontend/build/index.html
+🎯 Objetivo do Projeto
+Demonstrar domínio Full Stack
 
-As rotas de API podem ser acessadas em http://localhost:3000/api/hello. Esse endpoint pode ser editado em pages/api/hello.ts.
+Aplicar arquitetura organizada e escalável
 
-O diretório pages/api é mapeado para /api/*. Os arquivos dentro desse diretório são tratados como rotas de API em vez de páginas React.
+Trabalhar com API REST
 
-Este projeto utiliza next/font para otimizar e carregar automaticamente a fonte Geist, uma nova família de fontes da Vercel.
+Utilizar Tailwind CSS, Bootstrap e Webpack
 
-Saiba Mais
-Para aprender mais sobre o Next.js, confira os recursos abaixo:
+Utilizar Docker e Docker Compose
 
-Documentação do Next.js – aprenda sobre os recursos e a API do Next.js.
+Criar um projeto sólido para portfólio profissional
 
-Aprenda Next.js – um tutorial interativo de Next.js.
+🔮 Evoluções Futuras
+🔐 Autenticação e autorização (JWT)
 
-Você também pode conferir o repositório do Next.js no GitHub — seu feedback e contribuições são bem-vindos!
+🔎 Busca e filtros avançados
 
-Deploy na Vercel
-A forma mais fácil de fazer o deploy da sua aplicação Next.js é usando a plataforma Vercel, criada pelos mesmos desenvolvedores do Next.js.
+📊 Paginação
 
-Confira a nossa documentação de deploy do Next.js para mais detalhes.
+⚛️ Migração para React ou Vue
+
+🚀 Pipeline CI/CD
+
+👨‍💻 Autor
+Desenvolvido por Diego Hugo
+
+⭐ Se este projeto te ajudou ou inspirou, deixe uma estrela no repositório!
