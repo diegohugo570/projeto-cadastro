@@ -81,7 +81,7 @@ O projeto foi estruturado para ser **escalável, modular e preparado para produ�
 ---
 
 ## 📂 Estrutura do Projeto
-
+```
 projeto-cadastro/
 │
 ├── backend/
@@ -109,13 +109,12 @@ projeto-cadastro/
 └── README.md
 
 yaml
-
+```
 ---
 
 ## ▶️ Como Executar o Projeto
 
 ### 🐳 Executar com Docker
-```bash
 docker-compose up --build
 💻 Executar Manualmente
 Backend
