@@ -113,48 +113,59 @@ projeto-cadastro/
 ## ▶️ Como Executar o Projeto
 
 ### 🐳 Executar com Docker
+```
 docker-compose up --build
+```
 💻 Executar Manualmente
+```
 Backend
-bash
+
 Copiar código
+```
 cd backend
+```
 npm install
 npm run dev
+```
 Frontend
-bash
+
 Copiar código
+```
 cd frontend
 npm install
 npm run build
+```
 Abra no navegador:
 
 bash
 Copiar código
+```
 frontend/build/index.html
+```
 🎯 Objetivo do Projeto
-Demonstrar domínio Full Stack
 
-Aplicar arquitetura organizada e escalável
+- Demonstrar domínio Full Stack
 
-Trabalhar com API REST
+- Aplicar arquitetura organizada e escalável
 
-Utilizar Tailwind CSS, Bootstrap e Webpack
+- Trabalhar com API REST
 
-Utilizar Docker e Docker Compose
+- Utilizar Tailwind CSS, Bootstrap e Webpack
 
-Criar um projeto sólido para portfólio profissional
+- Utilizar Docker e Docker Compose
 
-🔮 Evoluções Futuras
-🔐 Autenticação e autorização (JWT)
+- Criar um projeto sólido para portfólio profissional
 
-🔎 Busca e filtros avançados
+- 🔮 Evoluções Futuras
+- 🔐 Autenticação e autorização (JWT)
 
-📊 Paginação
+- 🔎 Busca e filtros avançados
 
-⚛️ Migração para React ou Vue
+- 📊 Paginação
 
-🚀 Pipeline CI/CD
+- ⚛️ Migração para React ou Vue
+
+- 🚀 Pipeline CI/CD
 
 👨‍💻 Autor
 Desenvolvido por Diego Hugo
