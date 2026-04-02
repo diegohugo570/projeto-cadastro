@@ -117,28 +117,22 @@ projeto-cadastro/
 docker-compose up --build
 ```
 💻 Executar Manualmente
-```
-Backend
 
-Copiar código
+Backend
 ```
 cd backend
-```
 npm install
 npm run dev
 ```
 Frontend
-
-Copiar código
 ```
 cd frontend
 npm install
 npm run build
 ```
+
 Abra no navegador:
 
-bash
-Copiar código
 ```
 frontend/build/index.html
 ```
